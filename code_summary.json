@@ -1,0 +1,41 @@
+{
+  "directories": [
+    "src/",
+    "src/lib/",
+    "src/components/",
+    "src/components/Calculator/",
+    "src/pages/"
+  ],
+  "files": [
+    "src/lib/types.ts",
+    "src/lib/store.ts",
+    "src/components/Calculator/CalculatorButton.tsx",
+    "src/components/Calculator/CalculatorDisplay.tsx",
+    "src/components/Calculator/Calculator.tsx",
+    "src/pages/HomePage.tsx",
+    "src/App.tsx"
+  ],
+  "components": [
+    "Calculator",
+    "CalculatorButton",
+    "CalculatorDisplay",
+    "HomePage",
+    "App"
+  ],
+  "types": [
+    "CalculatorState",
+    "CalculatorAction",
+    "CalculatorButtonProps"
+  ],
+  "stores": [
+    "useCalculatorStore"
+  ],
+  "functions": [
+    "addNumber",
+    "setOperation",
+    "calculate",
+    "clear",
+    "deleteLastDigit",
+    "addDecimal"
+  ]
+}
